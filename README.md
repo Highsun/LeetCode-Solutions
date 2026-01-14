@@ -1,35 +1,54 @@
 # LeetCode-Solutions
 
-![Language](https://img.shields.io/badge/language-C++11-blue.svg)
+![Language](https://img.shields.io/badge/language-C++17-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-LeetCode-orange.svg)
-![Status](https://img.shields.io/badge/status-learning-lightgrey.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-This repository is created to store and organize my C++ and algorithm practice code from [LeetCode](https://leetcode.cn). All source files are categorized by programming language and named according to the corresponding problem ID on LeetCode.
+This repository is dedicated to storing and organizing my algorithm implementations from [LeetCode](https://leetcode.cn). All source files are named according to their corresponding LeetCode problem IDs.
 
-Each solution in this repository has been tested and successfully accepted by LeetCode's online judge.
+Every solution in this repository has been tested and successfully accepted by the LeetCode online judge.
 
-I'm currently new to competitive programming and ACM, so the solutions provided here may not be the most optimal. I welcome any suggestions or discussions — feel free to explore, share ideas, or raise issues for communication and improvement!
+As I am not a professional ACMer, these solutions may not always be the most optimal. I warmly welcome any suggestions, discussions, or optimizations — feel free to explore the code, share your ideas, or open an issue for communication!
 
 Happy coding!
 
-## 🛠 Build Instructions
+---
 
-All C++ source files in this repository are written in **standard C++11** and can be compiled and executed using a modern C++ compiler such as:
+## Quick Start
 
-```bash
-g++ your_code.cpp -std=c++11 -o your_program
-./your_program
-```
+### Prerequisites
 
-Make sure you have g++ installed. You can also use any C++ IDE that supports C++11 or later.
+#### Compiler
 
-## 📬 Contact
+- **macOS**: Install **Xcode Command Line Tools** (`xcode-select --install`).
+- **Windows**: Install **MinGW-w64** (to get `g++`) or **Microsoft Visual C++ (MSVC)** build tools.
+- **Linux**: Install `build-essential` (which includes `g++`).
 
-If you have any questions, suggestions, or would like to get in touch, feel free to contact me at:
+#### IDE/Editor
 
-Email: highsun910@gmail.com
+Any C++ IDE supporting C++17 or later (**Visual Studio Code** is recommended).
 
-## 📄 License
+### Workflow in VS Code
+
+All C++ source files are written in **standard C++17**. A custom build task is provided in `.vscode/tasks.json` for a seamless experience:
+
+1. Open the project folder in VS Code.
+2. Open any `.cpp` source file.
+3. Press `Cmd + Shift + B` (macOS) or `Ctrl + Shift + B` (Windows).
+4. The executable will be generated in the `bin/` directory and executed automatically in the integrated terminal.
+
+### Code Style
+
+This project includes a `.clang-format` file to ensure code consistency. For the best development experience, it is highly recommended to install the **clangd** extension in VS Code.
+
+---
+
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+If you have any questions, suggestions, or would like to connect, feel free to reach out:
+
+- **Email**: [highsun910@gmail.com](mailto:highsun910@gmail.com)

@@ -1,2 +1,9 @@
-**/bin/
 .DS_Store
+**/.DS_Store
+
+bin/
+**/bin/
+
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json

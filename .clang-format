@@ -1,0 +1,13 @@
+---
+BasedOnStyle: Google
+
+IndentWidth: 4
+
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+
+BreakBeforeBraces: Attach
+
+ColumnLimit: 100
+---
+

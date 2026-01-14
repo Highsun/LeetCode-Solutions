@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile and Run Current File",
+      "type": "shell",
+      "command": "mkdir -p '${workspaceFolder}/bin' && clang++ -std=c++17 -g '${file}' -o '${workspaceFolder}/bin/${fileBasenameNoExtension}' && '${workspaceFolder}/bin/${fileBasenameNoExtension}'",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "focus": true,
+        "clear": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
