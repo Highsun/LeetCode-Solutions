@@ -8,6 +8,5 @@ AlignConsecutiveDeclarations: true
 
 BreakBeforeBraces: Attach
 
-ColumnLimit: 100
+ColumnLimit: 120
 ---
-
